@@ -1,0 +1,13 @@
+function = toggle_one();
+function calling Rules = {
+        $(document).on('click', '.addnewarea', function () {
+        var data = {
+            seletor: {
+                btn: ".addnewarea",
+                toggle_tab: ".area_input"
+            }
+        };
+    
+        toggle_one(data);
+    }); 
+}
